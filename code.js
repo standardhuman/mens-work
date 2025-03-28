@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIGURATION ---
     // PASTE YOUR GOOGLE APPS SCRIPT WEB APP URL HERE:
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxb-DrJLPJxN2EL9ev1HzEoULu1ap8zU1zCzBVscnaEgnkVP8i7bbR5GgIiiuu9bCck/exec';
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxhV7Xp2lcJXgBnUglsM2k9hya6JRQl_icoasCsk602DMEA10vJ74gB_djX4ksuxeRKXg/exec';
     // --- END CONFIGURATION ---
 
     const profilesContainer = document.getElementById('profiles-container');
