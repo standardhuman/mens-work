@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle of Men - Our Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>The Alchemist's Circle</h1>
+            <p class="subtitle">Showcasing the Transformative Work of Men</p>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <div class="container">
+            <div id="loading-indicator">
+                <div class="spinner"></div>
+                <p>Conjuring profiles from the ether...</p>
+            </div>
+            <div id="profiles-container" aria-live="polite">
+                <!-- Profiles will be loaded here by JavaScript -->
+            </div>
+             <div id="error-message" class="error-message" style="display: none;">
+                <p>Hmm, the connection to the arcane records seems unstable. Please try refreshing the page.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> The Alchemist's Circle. Content sourced dynamically.</p>
+            <!-- Optional: Link back to the source document -->
+            <!-- <p><a href="YOUR_GOOGLE_DOC_LINK_HERE" target="_blank" rel="noopener noreferrer">Source Document</a></p> -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
